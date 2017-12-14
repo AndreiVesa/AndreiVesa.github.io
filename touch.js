@@ -3,6 +3,7 @@ document.getElementById("id_business_version").innerHTML = "Business version = 2
 
 var canvas = document.getElementById("id_canvas");
 var context = canvas.getContext("2d");
+
 var lista_culori=["#FF0000","#00FF00","#0000FF","#FF2310","#88FF00"];
 canvas.addEventListener("touchstart",on_start_touch);
 canvas.addEventListener("touchsmove",on_move_touch);
@@ -18,8 +19,7 @@ for(var i=0; i<touches.length; i++)
 	context.strokeStyle=lista_culori[i];
 	context.lineWidth=5;
 	context.stroke(); 
-}
-	
+}	
 }
 //---------------------------------------
 function on_move_touch(e)
@@ -32,5 +32,6 @@ for(var i=0; i<touches.length; i++)
 	context.strokeStyle=lista_culori[i];
 	context.lineWidth=5;
 	context.stroke(); 
+}
 }
 //---------------------------------------
