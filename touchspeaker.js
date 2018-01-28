@@ -26,7 +26,7 @@ for(var i=0; i<touches.length; i++)
 	context.strokeStyle=culoare[i];
 	context.fillStyle=culoare[i];
 	context.fill();
-	context.lineWidth=2;
+	context.lineWidth=3;
 	context.stroke(); 
 }	
 }
