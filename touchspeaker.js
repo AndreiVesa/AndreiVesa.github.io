@@ -19,7 +19,7 @@ for(var i=0; i<touches.length; i++)
 	context.strokeStyle=culoare[i];
 	context.fillStyle=culoare[i];
 	context.fill();
-	context.lineWidth=5;
+	context.lineWidth=4;
 	context.stroke(); 
 }	
 }
