@@ -44,7 +44,7 @@ function on_speech_end(){
 }
 
 function on_speech_results(e){
-	for (var i=0;i<speech.maxAlternatives;i++){
+	for (var i=0;i<speech.maxAlternatives;i++){ 
 	document.getElementById("id_speech").innerHTML+=e.results.item(0).item(i).transcript+"	"+e.results.item(0).item(i).confidence*100+"%"+"<br>";
 }
 }
