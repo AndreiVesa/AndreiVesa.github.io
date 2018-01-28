@@ -10,6 +10,6 @@ window.addEventListener('load', function(){
         var dist = parseInt(touchobj.clientX) - startx
         statusdiv.innerHTML = 'Distanta de la pct A la B: ' + dist + 'px'
         e.preventDefault()
-    }, false)
+    })
  
-}, false) 
+}) 
