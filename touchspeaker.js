@@ -18,6 +18,7 @@ for(var i=0; i<touches.length; i++)
 	context.arc(touches.item(i).pageX,touches.item(i).pageY,20,0,2*Math.PI);
 	context.strokeStyle=culoare[i];
 	context.fillStyle=culoare[i];
+	context.fill();
 	context.lineWidth=5;
 	context.stroke(); 
 }	
