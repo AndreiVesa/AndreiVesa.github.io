@@ -6,7 +6,7 @@ window.addEventListener('load', function(){
     var dist = 0
  
     box1.addEventListener('touchmove', function(e){
-        //var touchobj = e.changedTouches[0] // reference first touch point for this event
+        var touchobj = e.changedTouches[0] // reference first touch point for this event
         var dist = parseInt(touchobj.clientX) - startx
         statusdiv.innerHTML = 'Distanta de la pct A la B: ' + dist + 'px'
         e.preventDefault()
