@@ -1,6 +1,6 @@
 window.addEventListener('load', function(){
  
-    var box1 = document.getElementById('box1')
+    var point1 = document.getElementById('point1')
     var statusdiv = document.getElementById('statusdiv')
     var startx = 0
     var dist = 0
