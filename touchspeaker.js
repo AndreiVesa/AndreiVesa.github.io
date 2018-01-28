@@ -22,11 +22,11 @@ var touches = e.touches;
 for(var i=0; i<touches.length; i++)
 {
 	context.beginPath();
-	context.arc(touches.item(i).pageX,touches.item(i).pageY,2,0,2*Math.PI);
+	context.arc(touches.item(i).pageX,touches.item(i).pageY,20,0,2*Math.PI);
 	context.strokeStyle=culoare[i];
 	context.fillStyle=culoare[i];
 	context.fill();
-	context.lineWidth=5;
+	context.lineWidth=2;
 	context.stroke(); 
 }	
 }
