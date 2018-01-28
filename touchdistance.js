@@ -19,10 +19,4 @@ window.addEventListener('load', function(){
         e.preventDefault()
     }, false)
  
-    box1.addEventListener('touchend', function(e){
-        var touchobj = e.changedTouches[0] // reference first touch point for this event
-        statusdiv.innerHTML = 'Status: touchend<br> Resting x coordinate: ' + touchobj.clientX + 'px'
-        e.preventDefault()
-    }, false)
- 
 }, false)
