@@ -6,7 +6,6 @@ var context = canvas.getContext("2d");
 var culoare=["#0000FF"];
 canvas.addEventListener("touchstart",on_start_touch);
 
-
 //---------------------------------------
 
 function on_start_touch(e)
